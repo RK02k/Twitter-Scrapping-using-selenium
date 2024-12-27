@@ -26,14 +26,14 @@ This repository contains a Python-based web scraping application that uses Selen
 To get started, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/SekharSunkara6/Twitter-Web-Scraping.git
+git clone https://github.com/RK02k/Twitter-Scrapping-using-selenium.git
 
 
 ### Installation
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/SekharSunkara6/Twitter-Web-Scraping.git
+git clone https://github.com/RK02k/Twitter-Scrapping-using-selenium.git
 ```
 Navigate to the project directory:
 
