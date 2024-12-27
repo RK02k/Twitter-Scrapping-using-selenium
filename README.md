@@ -1,24 +1,33 @@
-# Twitter Web-Scraping App
-In this repository it was created by using Selenium script that can read the Twitter home page (on your local computer) and fetch the top 5 trending topics under “What’s Happening” section from the homepage. 
+# Twitter Trending Topics Scraper
 
-## Technologies Used:
-1. Selenium: Selenium is a popular tool for automating web browsers. In this project, it is used for web scraping to interact with the Twitter website and extract trending topics.
-2. MongoDB: MongoDB is a NoSQL database program. It is used to store the scraped data (trending topics) in a database for persistence.
-3. HTML and Jinja: HTML is used to structure the web pages, while Jinja is a templating engine for Python that is used with Flask to generate dynamic HTML content. 
-4. Python-Dotenv: Python-Dotenv is a Python library that manages environment variables stored in a .env file. It is used in this project to securely store sensitive information such as credentials.
-5. Flask: Flask is a micro web framework written in Python. It is used to build the web application and define routes for handling HTTP requests.
+This repository contains a Python-based web scraping application that uses Selenium to read Twitter’s homepage and extract the top 5 trending topics from the "What’s Happening" section.
 
-## Features:
-1. Web Scraping: Utilizes Selenium and BeautifulSoup for web scraping to extract trending topics from Twitter's homepage.
-2. MongoDB Integration: Stores scraped data in a MongoDB database for persistence.
-3. Flask Web Interface: Provides a simple web interface for triggering the scraping process and displaying the scraped data.
+## Technologies Involved:
+1. **Selenium**: A widely-used tool for automating web browser actions. It is employed in this project for scraping, enabling interaction with the Twitter website to retrieve trending topics.
+2. **MongoDB**: A NoSQL database used for storing the scraped trending topics, providing data persistence.
+3. **HTML & Jinja**: HTML is used for structuring web pages, while Jinja, a templating engine for Python, is used alongside Flask to generate dynamic HTML content.
+4. **Python-Dotenv**: A Python library that loads environment variables from a `.env` file, helping to securely manage sensitive credentials.
+5. **Flask**: A lightweight web framework written in Python, utilized to build the web application and define routes for handling HTTP requests.
 
-## Files Included: 
-1. Web.py: Flask application script containing routes for triggering the scraping process and displaying scraped data.
-2. twitter_scrapping.py: Python script for scraping Twitter's homepage and storing trending topics in MongoDB.
-3. requirements.txt: File containing a list of Python dependencies required for running the project.
-4. index.html: HTML template file for rendering the web interface.
-5. .env: Environment variable file containing sensitive information like credentials.
+## Key Features:
+1. **Automated Web Scraping**: Using Selenium and BeautifulSoup, the application scrapes Twitter’s homepage to gather the top trending topics in real-time.
+2. **MongoDB Integration**: The application stores the extracted trending topics in a MongoDB database for future reference.
+3. **Flask Web Interface**: A user-friendly interface that allows users to trigger the scraping process and view the collected data.
+
+## Files Included:
+1. **web.py**: A Flask-based Python script that manages routes to trigger the scraping process and display the scraped data.
+2. **twitter_scraping.py**: A Python script that utilizes Selenium to scrape Twitter and store the trending topics in a MongoDB database.
+3. **requirements.txt**: A file that lists the necessary Python dependencies for the project.
+4. **index.html**: An HTML template file used to render the user interface.
+5. **.env**: A configuration file that holds environment variables, including credentials for third-party services.
+
+## Installation Instructions
+
+To get started, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/SekharSunkara6/Twitter-Web-Scraping.git
+
 
 ### Installation
 Clone the repository to your local machine:
@@ -57,6 +66,3 @@ Open your web browser and go to http://localhost:5000 to access the web interfac
 Click the "Scrape Data" button to trigger the scraping process.
 
 Once the scraping is complete, the trending topics will be displayed on the webpage.
-
-## Live Hosted
-![Project picture](./image/image.png)
